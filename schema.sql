@@ -6,7 +6,7 @@ INSERT INTO categories (category_name, type) VALUES
 ('Rent', 'Expense'),
 ('Groceries', 'Expense'),
 ('Entertainment', 'Expense'),
-('Utilities', 'Expense');
+('Utilities', 'Expense'); 
 
 -- Note: The numbers at the end (1, 2, 3, etc.) match the category_ids above
 INSERT INTO transactions (amount, transaction_date, description, category_id) VALUES 
