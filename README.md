@@ -1,17 +1,21 @@
-# Personal Finance Tracker (SQL)
+# Personal Finance Tracker
 
-## Project Overview
-A SQL-based personal finance system designed to track income and expenses. This project demonstrates database normalization, relational mapping, and financial data analysis using MySQL.
+A beginner-friendly SQL project to analyze monthly spending habits and financial health.
 
-## Core Analysis Included:
-* **Monthly Burn Rate:** Calculates total outflows per month to track spending trends.
-* **Category Breakdown:** Aggregates spending by category (Rent, Groceries, etc.) to show allocation percentages.
-* **Savings Rate:** Implements the formula: $((Income - Expenses) / Income) * 100$.
+## Features
+* **Automated Categorization:** Linked transactions to categories using Foreign Keys.
+* **Monthly Burn Rate:** Aggregated spending totals to track monthly outflows.
+* **Savings Analysis:** Calculated net savings percentage using conditional logic.
 
-## Database Structure
-The project uses two tables linked via a **Foreign Key**:
-1. `categories`: Stores the type of transaction (Income/Expense).
-2. `transactions`: Stores the raw financial data, including amounts, dates, and store names.
+## Data Visualization
+![Spending Pie Chart](./piechart.png)
+*Visualizing category allocation from the SQL `category_breakdown` results.*
 
-## Key Insights
-![finance_tracker](./eer_diagram.png)
+## Database Schema (EER Diagram)
+![EER Diagram](./eer_diagram.png)
+*Generated via MySQL Workbench to show table relationships.*
+
+## How to Run
+1. Run `data.sql` to build the tables.
+2. Run `schema.sql` to populate dummy data.
+3. Execute the analysis files to see financial insights.
