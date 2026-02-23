@@ -14,3 +14,4 @@ The project uses two tables linked via a **Foreign Key**:
 2. `transactions`: Stores the raw financial data, including amounts, dates, and store names.
 
 ## Key Insights
+![finance_tracker](./eer_diagram.png)
