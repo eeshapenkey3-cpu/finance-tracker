@@ -16,6 +16,6 @@ A beginner-friendly SQL project to analyze monthly spending habits and financial
 *Generated via MySQL Workbench to show table relationships.*
 
 ## How to Run
-1. Run `data.sql` to build the tables.
-2. Run `schema.sql` to populate dummy data.
+1. Run `schema.sql` to build the tables.
+2. Run `data.sql` to populate dummy data.
 3. Execute the analysis files to see financial insights.
