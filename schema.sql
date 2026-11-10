@@ -1,4 +1,4 @@
--- CREATE DATABASE finance_tracker;
+CREATE DATABASE finance_tracker;
 USE finance_tracker;
 DROP TABLE IF EXISTS transactions;
 DROP TABLE IF EXISTS categories;
